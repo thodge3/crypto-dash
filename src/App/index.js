@@ -3,12 +3,13 @@ import './App.css';
 import styled, { css } from 'styled-components';
 
 import WelcomeMessage from './WelcomeMessage';
+import AppLayout from './AppLayout';
 
 function App() {
   return (
-    <div>
+    <AppLayout>
       <WelcomeMessage />  
-    </div>
+    </AppLayout>
   );
 }
 
