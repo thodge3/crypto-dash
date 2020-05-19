@@ -4,8 +4,7 @@ import styled from 'styled-components';
 export default function({ coin, style }){
 
     const ImageStyled = styled.img`
-        display: grid;
-        justify-content: right;
+        justify-self: center;
     `
 
     return <ImageStyled 
