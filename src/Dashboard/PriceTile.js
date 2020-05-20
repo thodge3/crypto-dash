@@ -51,7 +51,7 @@ function ChangePercent({ data }){
     return (
         <JustifyRight>
             <ChangePct red={ data.CHANGEPCT24HOUR < 0 }>
-                <div> { numberFormat(data.CHANGEPCT24HOUR) } </div>
+                <div> { numberFormat(data.CHANGEPCT24HOUR) }% </div>
             </ChangePct>
         </JustifyRight>
     );
